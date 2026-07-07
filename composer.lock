@@ -4,8 +4,348 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17ab698939ea91c0346b444ceb14bb08",
-    "packages": [],
+    "content-hash": "e89d29491339fb2586bf6af65479ab28",
+    "packages": [
+        {
+            "name": "php-pico/http-factory",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-pico/http-factory.git",
+                "reference": "7155461f3a2dc35bf0be2a10f4c69367794563aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-pico/http-factory/zipball/7155461f3a2dc35bf0be2a10f4c69367794563aa",
+                "reference": "7155461f3a2dc35bf0be2a10f4c69367794563aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.5",
+                "php-pico/http-message": "^0.1.1",
+                "php-pico/utility": "^0.1.0",
+                "psr/http-factory": "^1.1"
+            },
+            "require-dev": {
+                "carthage-software/mago": "^1.30.0",
+                "phpunit/phpunit": "^12.5.30"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPico\\Http\\Factory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PSR-17 compliant HTTP factory package.",
+            "support": {
+                "issues": "https://github.com/php-pico/http-factory/issues",
+                "source": "https://github.com/php-pico/http-factory/tree/0.1.1"
+            },
+            "time": "2026-06-23T14:15:40+00:00"
+        },
+        {
+            "name": "php-pico/http-message",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-pico/http-message.git",
+                "reference": "4e3e4ce58e26d34cb9b87e25602f00faef7c3859"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-pico/http-message/zipball/4e3e4ce58e26d34cb9b87e25602f00faef7c3859",
+                "reference": "4e3e4ce58e26d34cb9b87e25602f00faef7c3859",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.5",
+                "psr/http-message": "^2.0"
+            },
+            "require-dev": {
+                "carthage-software/mago": "^1.30.0",
+                "phpunit/phpunit": "^12.5.30"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPico\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PSR-7 compliant HTTP message package.",
+            "support": {
+                "issues": "https://github.com/php-pico/http-message/issues",
+                "source": "https://github.com/php-pico/http-message/tree/0.1.3"
+            },
+            "time": "2026-06-23T14:19:45+00:00"
+        },
+        {
+            "name": "php-pico/utility",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-pico/utility.git",
+                "reference": "6e07ec56feed22d52692c5a8026d8a17a3757013"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-pico/utility/zipball/6e07ec56feed22d52692c5a8026d8a17a3757013",
+                "reference": "6e07ec56feed22d52692c5a8026d8a17a3757013",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.5"
+            },
+            "require-dev": {
+                "carthage-software/mago": "^1.30.0",
+                "phpunit/phpunit": "^12.5.30"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPico\\Utility\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A utility package with reusable helpers for the php-pico framework.",
+            "support": {
+                "issues": "https://github.com/php-pico/utility/issues",
+                "source": "https://github.com/php-pico/utility/tree/0.1.1"
+            },
+            "time": "2026-06-23T14:20:59+00:00"
+        },
+        {
+            "name": "psr/http-factory",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-factory.git",
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "psr/http-message": "^1.0 || ^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "PSR-17: Common interfaces for PSR-7 HTTP message factories",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-factory"
+            },
+            "time": "2024-04-15T12:06:14+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/2.0"
+            },
+            "time": "2023-04-04T09:54:51+00:00"
+        },
+        {
+            "name": "psr/http-server-handler",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-handler.git",
+                "reference": "84c4fb66179be4caaf8e97bd239203245302e7d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/84c4fb66179be4caaf8e97bd239203245302e7d4",
+                "reference": "84c4fb66179be4caaf8e97bd239203245302e7d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0 || ^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side request handler",
+            "keywords": [
+                "handler",
+                "http",
+                "http-interop",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response",
+                "server"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-server-handler/tree/1.0.2"
+            },
+            "time": "2023-04-10T20:06:20+00:00"
+        },
+        {
+            "name": "psr/http-server-middleware",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-middleware.git",
+                "reference": "c1481f747daaa6a0782775cd6a8c26a1bf4a3829"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/c1481f747daaa6a0782775cd6a8c26a1bf4a3829",
+                "reference": "c1481f747daaa6a0782775cd6a8c26a1bf4a3829",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0 || ^2.0",
+                "psr/http-server-handler": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side middleware",
+            "keywords": [
+                "http",
+                "http-interop",
+                "middleware",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/http-server-middleware/issues",
+                "source": "https://github.com/php-fig/http-server-middleware/tree/1.0.2"
+            },
+            "time": "2023-04-11T06:14:47+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "carthage-software/mago",
